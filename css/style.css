@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/maze.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+   }
+   .container{
+      border-radius:50px;
+     background-color:white;
+     color: black;
+     margin: 0 auto;
+     text-align: center;
+     width:600px;
+     
+     
+   
+   
+   }
+   .container h1{
+   margin: 30px 0 0 0;
+   padding: 20px 0;
+   box-sizing: border-box;
+   }
+   .container img{
+   height:200px;
+   width:200px;
+   border-radius: 50px;
+   }
+   .container h2{
+   
+   animation-name: color;
+   animation-duration: 3s;
+   animation-iteration-count: 1;
+   padding: 30px;
+   position: relative;
+   top:-30px;
+   box-sizing: border-box;
+   }
+   @keyframes color{
+   0% {
+   transform: translate(-800px,0);
+   color: white;
+       }
+   100% {
+       transform: translate(0,0);
+       color: black;
+       }
+   }
+   
